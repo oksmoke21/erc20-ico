@@ -9,3 +9,7 @@ Steps to follow to deploy and run contracts-
 3) Admin should transfer their tokens to the deployed TokenSale contract address by using Token contract's transfer() function.
 4) Investors can now buy tokens of their desired capital investment by calling the buyTokens() function from TokenSale, with "address beneficiary" parameter being the address of the beneficiary of the purchased tokens
 5) Investors can see which round (pre-sale, second sale, final sale) is currently going on by calling showCurrentSale()
+6) The sale rates for the different sale rounds are: 
+    Presale round: $ 0.015 per token
+    Second sale round: $ 0.025 per token
+    Final sale round: $ 0.040 per token
